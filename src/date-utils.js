@@ -1,5 +1,5 @@
 export function isSameDate(date1, date2) {
-    return date1?.toLocalDateString() === date2?.toLocalDateString();
+    return date1?.toLocaleDateString() === date2?.toLocaleDateString();
 }
 
 export function localDateFromUTC(utcDate){

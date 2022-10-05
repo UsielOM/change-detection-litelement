@@ -19,7 +19,7 @@ export class MyElements extends LitElement {
         `;
     }
     _dateChanged(e) {
-        const utcDate = e.target.valuesAsDate;
+        const utcDate = e.target.valueAsDate;
         if (utcDate) {
             this.date = localDateFromUTC(utcDate);
         }
